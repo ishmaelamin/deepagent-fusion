@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MVP Specific
+# --- Node / Vite / React ---------------------------------
+node_modules/
+dist/
+.vite/
+out/
+build/
+coverage/          # if you run JS tests
+*.map              # source maps
+
+# --- VS Code ----------------------------------------------
+.vscode/
+.history/
+
+# --- Environment / Secrets ---------------------------------
+*.env
+.env.*
+*.key
+*.pem
+
+# --- Docker / CI --------------------------------------------
+*.tar
+*.tar.gz
+*.sh
+*.ps1
+docker-*
+
+# --- Optional extras ----------------------------------------
+*.log
+*.tmp
+*.cache
