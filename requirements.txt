@@ -1,0 +1,11 @@
+# Core libraries
+torch
+torchvision
+langchain
+langsmith
+# If you need OpenCV with CUDA
+opencv-python
+
+# Any other packages you use
+numpy
+pandas
